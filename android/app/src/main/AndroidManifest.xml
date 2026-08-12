@@ -7,7 +7,12 @@
     <application
         android:label="Ultra Gloo Macro"
         android:icon="@mipmap/ic_launcher">
-        
+
+        <!-- السطر الأهم لحل مشكلة v1 embedding -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
